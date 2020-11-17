@@ -1420,6 +1420,13 @@ static const AVCodecDescriptor codec_descriptors[] = {
         .props     = AV_CODEC_PROP_LOSSY,
     },
     {
+	    .id        = AV_CODEC_ID_SPLASH,
+	    .type      = AVMEDIA_TYPE_VIDEO,
+	    .name      = "splash",
+	    .long_name = NULL_IF_CONFIG_SMALL("Splash"),
+	    .props     = AV_CODEC_PROP_LOSSY,
+    },
+    {
         .id        = AV_CODEC_ID_Y41P,
         .type      = AVMEDIA_TYPE_VIDEO,
         .name      = "y41p",
